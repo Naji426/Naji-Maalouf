@@ -1,7 +1,7 @@
 let user = {
     name : 'Adele',
-    hobbies : ['singing','shoching peaple',],
-    age : 2,
+    hobbies : ['singing','shoching peaple'],
+    age : 2
    
 };
  if (user.age>user.hobbies.length)
