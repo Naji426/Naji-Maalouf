@@ -1,0 +1,12 @@
+let user = {
+    name : 'Adele',
+    hobbies : ['singing','shoching peaple',],
+    age : 2,
+   
+};
+ if (user.age>user.hobbies.length)
+   console.log('True');
+  else if (user.age == user.hobbies.length)
+   console.log('False');
+    else
+  console.log('undefined');
