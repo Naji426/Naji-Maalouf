@@ -1,0 +1,44 @@
+//Number 1
+let arr = [1, 2, 3, 'target', 'darget', 'tit'];
+console.log(arr.indexOf('target'));
+
+//Number 2
+let matrix = [[[1, 2], [3, 4]], [ [5, 6], [7, 8]]];
+let result = matrix.flat(Infinity);
+console.log(result);
+
+//Number 3
+let arr = ['a','b', 'c']
+let result = arr.reverse().join('');
+console.log(result);
+
+//Number 4
+let arr = ['a','b','c'];
+let result=arr.pop();
+arr.unshift(result);
+console.log(arr);
+
+//Number 5
+let smth=[1, 2, 3];
+let smths='smth';
+console.log(Array.isArray(smths));
+
+//Number 6
+let num1=[1, 2, 3];
+let num2=[4, 5, 6];
+let joinArrays = num1.concat(num2);
+console.log(joinArrays);
+
+//Number 7
+let arr = ['a','b','c'];
+arr.pop();
+arr.shift();
+arr.unshift('stopPoint');
+arr.push('stopPoint');
+console.log(arr);
+
+//Number 8
+let animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+let animals2 = animals.slice(3);
+let animals3 = animals2.reverse(); 
+console.log (animals3);
